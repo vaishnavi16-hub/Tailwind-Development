@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive tailwind</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body >
+    
+    <!-- <h1 class="text-2xl  sm:text-sm">This is my responsive design</h1> -->
+     <div class="m-4 grid  gap-4 sm:grid-cols-12">
+                <!-- <div class="min-h-[100px] rounded-lg bg-orange-500 shadow"></div>
+                <div class="min-h-[100px] rounded-lg bg-pink-500 shadow"></div>
+                                <div class="min-h-[100px] rounded-lg bg-orange-500 shadow"></div>
+                <div class="min-h-[100px] rounded-lg bg-orange-500 shadow"></div> -->
+
+<!-- <div class="min-h-[100px] rounded-lg bg-pink-500 shadow"></div> -->
+                            <!-- <div class="min-h-[100px] rounded-lg bg-orange-500 shadow col-span-2"></div>
+                <div class="min-h-[100px] rounded-lg bg-red-500 shadow col-span-10"></div>
+     </div> -->
+
+     <div class="m-4 grid gap-4 sm:grid-cols-12">
+        <div class="min-h-[100px] rounded-lg bg-orange-500 shadow sm:col-span-2 sm:block hidden"></div>
+        <div class="min-h-[100px] rounded-lg bg-blue-500 shadow sm:col-span-8"></div>
+        <div class="hidden min-h-[100px] rounded-lg bg-pink-900 shadow sm:col-span-2 sm:block"></div>
+     </div>
+</body>
+</html>
